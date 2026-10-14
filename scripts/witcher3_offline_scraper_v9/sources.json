@@ -1,0 +1,67 @@
+{
+  "sites": [
+    {
+      "name": "official-redkit-full-site",
+      "seeds": [
+        "https://cdprojektred.atlassian.net/wiki/spaces/W3REDkit/pages/12058625/Changelog"
+      ],
+      "paths": [
+        "/wiki/spaces/W3REDkit/"
+      ],
+      "asset_hosts": [
+        "*.atlassian.net",
+        "*.atlassian.com",
+        "*.atl-paas.net"
+      ],
+      "max_pages": 200,
+      "confluence_space_id": "2850827",
+      "browser": false,
+      "sitemap": false,
+      "seed_only": true,
+      "min_text_chars": 100,
+      "reader_snapshot": true
+    },
+    {
+      "name": "official-remastered-guides",
+      "seeds": [
+        "https://mod.io/g/the-witcher-3/r/creation-guidelines-cross-platform-mod-support",
+        "https://mod.io/g/the-witcher-3/r/how-to-create-mods-for-cross-platform-mod-support",
+        "https://mod.io/g/the-witcher-3/r/redkit",
+        "https://mod.io/g/the-witcher-3/r/how-to-publish-a-mod-on-modio"
+      ],
+      "paths": [
+        "/g/the-witcher-3/r/"
+      ],
+      "asset_hosts": [
+        "*.mod.io",
+        "*.modcdn.io"
+      ],
+      "max_pages": 4,
+      "browser": true,
+      "sitemap": false,
+      "seed_only": true,
+      "min_text_chars": 1000,
+      "reader_snapshot": true
+    },
+    {
+      "name": "official-game-patch-5-01",
+      "seeds": [
+        "https://www.thewitcher.com/us/en/news/52085/patch-5-01-for-the-witcher-3-wild-hunt-remastered-is-live"
+      ],
+      "paths": [
+        "/us/en/news/52085/"
+      ],
+      "asset_hosts": [
+        "*.thewitcher.com",
+        "*.cdprojektred.com"
+      ],
+      "max_pages": 1,
+      "browser": false,
+      "sitemap": false,
+      "seed_only": true,
+      "min_text_chars": 1000,
+      "reader_snapshot": true
+    }
+  ],
+  "repositories": []
+}

@@ -1,0 +1,9 @@
+# Downloadable documentation and generated output belong in GitHub Releases.
+Witcher3OfficialDocs/
+witcher3_official_full_docs/
+witcher3_official_5_01_docs/
+*.zip
+*.zip.part-*
+*.sqlite3
+__pycache__/
+*.pyc
