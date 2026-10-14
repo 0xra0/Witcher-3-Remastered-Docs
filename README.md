@@ -21,7 +21,7 @@ For the full archive, put both `.part-*` files in one directory, join them, then
 
 ```bash
 cat witcher3_official_full_docs.zip.part-aa witcher3_official_full_docs.zip.part-ab > witcher3_official_full_docs.zip
-sha256sum -c SHA256SUMS
+sha256sum --ignore-missing -c SHA256SUMS
 unzip witcher3_official_full_docs.zip
 ```
 
